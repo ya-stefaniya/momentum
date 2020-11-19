@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owfont-regular.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Momentum</title>
+</head>
+<body>
+    
+<div class="wrapper">
+  <div class="additions">
+    <div class="quote-wrapper">
+      <button class="btn-quote" title="Some wisdom"></button>
+      <figure class="quote">
+        <blockquote>
+        </blockquote>
+      </figure>
+  </div>
+
+    <div class="wrapper-weather">
+      <i class="weather-icon owf"></i>
+      <label class="city_label">
+        <input class="city_input" type="text" placeholder="Your City">
+      </label>
+      <p class="city_text city hidden"></p>
+      <div class="temperature"></div>
+      <div class="weather-description"></div>
+    </div>
+   
+  </div>
+
+    <h1 id="full-date">
+        <span id="weekday">Friday</span>
+        <span id="month">October</span>
+        <span id="day">12</span>
+
+    </h1>
+    
+    <time id="time">12:00:17</time>
+    <h1>
+        <span id="greeting">Good Afternoon</span>
+        <input class="name_input" type="text" placeholder="Your Name">
+        <span class="name_text"></span>
+    </h1>
+
+    <div class="focus">
+        <h2>What is your plan for today?</h2>
+        <h2 id="focus" contenteditable="true"></h2>
+    </div>
+    <div class="bg-reload-wrapper">
+      <button class="bg-reload" title="new-back" type="button"></button>
+    </div>
+</div>
+  
+    
+
+<script src="sourse.js"></script>
+</body>
+</html>
